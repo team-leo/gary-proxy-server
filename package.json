@@ -4,8 +4,8 @@
   "description": "proxy",
   "main": "proxy.js",
   "scripts": {
-    "start": "node server/app.js",
-    "start-dev": "nodemon server/app.js",
+    "start": "node proxy.js",
+    "start-dev": "nodemon proxy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

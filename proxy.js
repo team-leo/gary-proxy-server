@@ -1,9 +1,12 @@
+const compression = require("compression");
 const express = require("express");
 const parser = require("body-parser");
 const morgan = require("morgan");
 const path = require("path");
 const app = express();
 const port = 3001;
+
+app.use(compression());
 
 //middleware
 app.use(morgan("dev"));
